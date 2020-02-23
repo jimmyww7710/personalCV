@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CV</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="default.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+</head>
+<body>
+<nav class="flex-container align-center in-box justify-around">
+    <div class="flex-container">
+        <div style="width:228px;padding:5px 0px 5px 0px;">
+            <h2 class="italic">Front End developer</h2>
+            <p style="text-align: right;">王俊博 Jim Wang</p>
+        </div>
+        <div>
+            <i class="fa fa-thumbs-o-up" style="color:white;font-size: 27px;"></i>
+        </div>
+    </div>
+
+        <div class="nav-btn-list">
+            <ul>
+                <li><a href="#programming">程式能力</a></li>
+                <li><a href="#experience">專案經驗</a></li>
+            </ul>
+        </div> 
+    </nav>
+    <!-- <section id="slideshow">
+        <div class="slick">
+          <div><i class="fa fa-codepen"></i>  前端程式經驗三年</div>
+          <div>專長網頁排版、動畫過度設計、效能優化</div>
+          <div>搭配Electron 開發桌面應用程式經驗</div>
+        </div>
+    </section> -->
+    <main>
+         <div class="flex-container justify-center row-padding-40">
+            <div>
+                <div class="photo-circle" style="background-image:url(images/face.PNG);"></div>
+            </div>
+            <div>
+                <div class="text-area">
+                    <ul>
+                        <li>前端工程師 / 程式開發經驗三年</li>
+                        <li>jimmyww7710@gmail.com</li>
+                        <li>新北 / 台灣</li>
+                        <!-- <li>程式能力</li>
+                        <li>切版繪圖</li> -->
+                    </ul>
+                </div>
+            </div>
+            
+         </div>   
+        
+        <div id="programming"></div>
+        <h2 class="title-name">程式能力</h2>
+        <section id="programming-display" class="area-767">
+            <div class="flex-container row-padding-20">
+                <div class="card-outside">
+                    <div class="card" style="background-image: url(images/icons/angular.png);">
+                    </div>
+                    <div class="ability-text">Augular</div>
+                </div>
+                <div class="card-outside">
+                    <div class="card" style="background-image: url(images/icons/Vue.png);">
+                    </div>
+                    <div class="ability-text">Vue</div>
+                </div>
+                <div class="card-outside">
+                    <div class="card" style="background-image: url(images/icons/js.png);">
+                    </div>
+                    <div class="ability-text">javascript</div>
+                </div>
+                <div class="card-outside">
+                    <div class="card" style="background-image: url(images/icons/Jquery.png);">
+                    </div>
+                    <div class="ability-text">jQuery</div>
+                </div>
+                <div class="card-outside">
+                    <div class="card" style="background-image: url(images/icons/electron.png);">
+                    </div>
+                    <div class="ability-text">electron</div>
+                </div>
+                <div class="card-outside">
+                    <div class="card" style="background-image: url(images/icons/css3.png);background-size: 72%;">
+                    </div>
+                    <div class="ability-text">CSS3</div>
+                </div>
+                <div class="card-outside">
+                    <div class="card" style="background-image: url(images/icons/html5.png);">
+                    </div>
+                    <div class="ability-text">HTML5</div>
+                </div>
+            
+            </div>
+        </section>
+        
+        <div id="experience"></div>
+        <h2 class="title-name">專案經驗</h2>
+        <section id="workExperience-display" class="area-767">
+            <div class="row-padding-20">
+            
+        <div style="padding:20px;">
+            <h3 class="subTitle-name">網頁維護</h3>
+            <ul>
+                <li>商品類型網頁。</li>
+                <li>活動類型網頁(跳頁式問答遊戲 、填表單送資料給伺服器)。</li>
+                <li>官方網頁維護。</li>
+            </ul>
+        </div>
+        <div style="padding:20px;">
+            <h3 class="subTitle-name">桌面應用程式開發</h3>
+            <ul>
+                <li>電競周邊動畫效果設計。</li>
+                <li>前端取RGB值送給後端與硬體溝通。</li>
+                <li>app介面設計，提供使用者操作參數。</li>
+            </ul>
+        </div>
+            
+            </div>
+        </section> 
+    </main>
+    <footer>
+        任何疑問或合作洽談，歡迎來信 jimmyww7710@gmail.com
+    </footer>
+<script>
+          $(document).ready(function(){
+            $("#slideshow .slick").slick({
+                autoplay:true,
+                autoplaySpeed:2000,
+                speed:900,
+                dots:false,
+                prevArrow: false,
+                nextArrow: false
+            });
+            });
+</script>
+</body>
+</html>
