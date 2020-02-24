@@ -121,17 +121,17 @@ h3.subTitle-name{
 
 .card-outside{
     padding-bottom:20px;
-    cursor: pointer;
+    /* cursor: pointer; */
     border: 2px solid transparent;
-    transition: all 0.3s;
+    /* transition: all 0.3s; */
 }
 main .flex-container div.card-outside{
     padding-top:20px;
     padding-bottom:20px;
 }
-.card-outside:hover{
+/* .card-outside:hover{
     border: 2px solid  rgba(151, 143, 146,0.8);
-}
+} */
 .card img{
     display: block;max-height: 171px;margin: 0 auto;
 }
@@ -154,24 +154,22 @@ footer{
 
 /* nav-btn */
 
-.nav-btn-list li{
+.nav-btn-list a{
     display: inline-block;
     color:#ffffff;
     cursor: pointer;
     padding: 5px 8px 5px 8px;
     border: 1px solid #111314;
     margin:8px 5px 5px 5px;
-}
-
-.nav-btn-list li:hover{
-    border: 1px solid lavender;
-}
-.nav-btn-list li a{
-    display: inline-block;
-    color:#ffffff;
-    cursor: pointer;
     text-decoration: none;
 }
+
+.nav-btn-list a:hover,
+.nav-btn-list a:active{
+    background-color: lavenderblush;
+    color:#343a40;
+}
+
 @media screen and (max-width: 992px) {
     .card{
         width: 120px;
